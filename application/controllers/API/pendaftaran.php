@@ -11,7 +11,8 @@ class Pendaftaran extends REST_Controller {
 		$this->load->model('api_model');
 		$this->load->library('form_validation');
 	}
-
+	
+	//Menampilkan form input
 	 public function index_get()
     {
         $this->load->view('v_Pendaftaran');
